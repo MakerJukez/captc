@@ -60,7 +60,7 @@ const Terminal = ({ onClose }) => {
             </button>
           </div>
         </div>
-        <div className="p-4 font-mono text-white text-xs">
+        <div className="p-4 font-mono text-white text-[8px] leading-none md:text-xs">
           {securityItems.map((item, index) => (
             <p>
               {item}<LoadingDots />
