@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+.window {
+  border: 2px solid #000;
+}
+
+.window-content {
+  font-family: 'Courier New', monospace;
+}
