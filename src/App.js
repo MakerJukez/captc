@@ -63,7 +63,7 @@ const CaptchaModal = ({ onSuccess }) => {
 
   return (
     <div className="fixed inset-0 bg-white flex items-center justify-center">
-      <div className="bg-white border w-full max-w-[360px] md:max-w-[395px] overflow-hidden">
+      <div className="bg-white border w-full max-w-[330px] md:max-w-[395px] overflow-hidden">
         <div className="bg-blue-600 p-4 text-white">
           <h2 className="text-xl font-bold">Select the correct image</h2>
         </div>
