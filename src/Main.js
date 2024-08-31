@@ -68,7 +68,7 @@ function Main() {
     >
       {showBanner && (
         <div className="bg-[#000080] font-custom border-white border-b-2 border-b-[#5a5a5a] p-1 flex justify-between items-center text-white">
-          <span className="text-[7px] md:text-xs pl-2">Captcha Dog v.1 Updates in progress...</span>
+          <span className="text-[7px] md:text-xs pl-2">CA: B5U3Vg2UxLUCFdT6NFSDL5JUjGrfK4DsMJTFWrn9pump</span>
           <button
             onClick={handleCloseBanner}
             className="px-1 py-0.25 bg-[#c0c0c0] text-black border-t-2 border-l-2 border-white border-b-2 border-r-2 border-b-[#5a5a5a] border-r-[#5a5a5a] active:border-t-[#5a5a5a] active:border-l-[#5a5a5a] active:border-b-white active:border-r-white"
