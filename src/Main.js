@@ -79,7 +79,7 @@ function Main() {
 
       <div className="flex-grow flex justify-center items-center relative overflow-hidden">
         {showCaptcha && (
-          <div className="w-96 bg-[#c0c0c0] border-2 border-white border-r-[#5a5a5a] border-b-[#5a5a5a] shadow-md z-20 max-w-[330px] md:max-w-[370px]">
+          <div className="w-96 bg-[#c0c0c0] border-2 border-white border-r-[#5a5a5a] border-b-[#5a5a5a] shadow-md z-20 max-w-[330px] md:max-w-[395px]">
             <div className="bg-[#000080] text-white font-bold p-1 flex justify-between items-center font-custom">
               <span className='text-2xl pl-1'>Captcha Dog</span>
               <div className="flex space-x-1">
