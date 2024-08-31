@@ -53,14 +53,14 @@ const Terminal = ({ onClose }) => {
         <div className="bg-[#000080] text-white font-bold p-2 flex justify-between items-center">
           <span className='text-lg'>Console</span>
           <div className="flex space-x-1">
-            <button className="size-6 bg-[#c0c0c0] border border-[#5a5a5a] flex items-center justify-center text-black text-xs">_</button>
-            <button className="size-6 bg-[#c0c0c0] border border-[#5a5a5a] flex items-center justify-center text-black text-xs">□</button>
-            <button onClick={onClose} className="size-6 bg-[#c0c0c0] border border-[#5a5a5a] flex items-center justify-center text-black text-xs">
+            <button className="w-4 h-4 bg-[#c0c0c0] border border-[#5a5a5a] flex items-center justify-center text-black text-xs">_</button>
+            <button className="w-4 h-4 bg-[#c0c0c0] border border-[#5a5a5a] flex items-center justify-center text-black text-xs">□</button>
+            <button onClick={onClose} className="w-4 h-4 bg-[#c0c0c0] border border-[#5a5a5a] flex items-center justify-center text-black text-xs">
               X
             </button>
           </div>
         </div>
-        <div className="p-4 font-mono text-white text-[8px] leading-none md:text-xs">
+        <div className="p-4 font-mono text-white text-xs">
           {securityItems.map((item, index) => (
             <p>
               {item}<LoadingDots />
