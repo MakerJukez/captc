@@ -99,7 +99,7 @@ function Main() {
               <div className="border-2 border-[#5a5a5a] border-r-white border-b-white p-2 bg-white">
                 <p className="text-sm">
                   Captcha Dog is your friendly neighborhood cybersecurity canine.
-                  With a nose for sniffing out bots and a bark that keeps hackers at bay,
+                  With a nose for sniffing out bots and a bark that keeps hackers at away,
                   Captcha Dog ensures that only real humans get past the digital gate.
                 </p>
               </div>
